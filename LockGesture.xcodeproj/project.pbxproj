@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E047F6741EA5DD77008202F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E047F6731EA5DD77008202F7 /* main.m */; };
+		E047F6771EA5DD77008202F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E047F6761EA5DD77008202F7 /* AppDelegate.m */; };
+		E047F67A1EA5DD77008202F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E047F6791EA5DD77008202F7 /* ViewController.m */; };
+		E047F67F1EA5DD77008202F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E047F67E1EA5DD77008202F7 /* Assets.xcassets */; };
+		E047F6821EA5DD77008202F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E047F6801EA5DD77008202F7 /* LaunchScreen.storyboard */; };
+		E047F68D1EA5DD77008202F7 /* LockGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E047F68C1EA5DD77008202F7 /* LockGestureTests.m */; };
+		E047F6981EA5DD77008202F7 /* LockGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E047F6971EA5DD77008202F7 /* LockGestureUITests.m */; };
+		E047F6A91EA5E184008202F7 /* ZFLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = E047F6A81EA5E184008202F7 /* ZFLockView.m */; };
+		E047F6AB1EA5E538008202F7 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E047F6AA1EA5E538008202F7 /* bg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E047F6891EA5DD77008202F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E047F6671EA5DD77008202F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E047F66E1EA5DD77008202F7;
+			remoteInfo = LockGesture;
+		};
+		E047F6941EA5DD77008202F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E047F6671EA5DD77008202F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E047F66E1EA5DD77008202F7;
+			remoteInfo = LockGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E047F66F1EA5DD77008202F7 /* LockGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E047F6731EA5DD77008202F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E047F6751EA5DD77008202F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E047F6761EA5DD77008202F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E047F6781EA5DD77008202F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E047F6791EA5DD77008202F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E047F67E1EA5DD77008202F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E047F6811EA5DD77008202F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E047F6831EA5DD77008202F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E047F6881EA5DD77008202F7 /* LockGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E047F68C1EA5DD77008202F7 /* LockGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockGestureTests.m; sourceTree = "<group>"; };
+		E047F68E1EA5DD77008202F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E047F6931EA5DD77008202F7 /* LockGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E047F6971EA5DD77008202F7 /* LockGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockGestureUITests.m; sourceTree = "<group>"; };
+		E047F6991EA5DD77008202F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E047F6A71EA5E184008202F7 /* ZFLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLockView.h; sourceTree = "<group>"; };
+		E047F6A81EA5E184008202F7 /* ZFLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLockView.m; sourceTree = "<group>"; };
+		E047F6AA1EA5E538008202F7 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../../../../Downloads/bg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E047F66C1EA5DD77008202F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E047F6851EA5DD77008202F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E047F6901EA5DD77008202F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E047F6661EA5DD77008202F7 = {
+			isa = PBXGroup;
+			children = (
+				E047F6711EA5DD77008202F7 /* LockGesture */,
+				E047F68B1EA5DD77008202F7 /* LockGestureTests */,
+				E047F6961EA5DD77008202F7 /* LockGestureUITests */,
+				E047F6701EA5DD77008202F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E047F6701EA5DD77008202F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E047F66F1EA5DD77008202F7 /* LockGesture.app */,
+				E047F6881EA5DD77008202F7 /* LockGestureTests.xctest */,
+				E047F6931EA5DD77008202F7 /* LockGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E047F6711EA5DD77008202F7 /* LockGesture */ = {
+			isa = PBXGroup;
+			children = (
+				E047F6AA1EA5E538008202F7 /* bg.jpg */,
+				E047F6751EA5DD77008202F7 /* AppDelegate.h */,
+				E047F6761EA5DD77008202F7 /* AppDelegate.m */,
+				E047F6781EA5DD77008202F7 /* ViewController.h */,
+				E047F6791EA5DD77008202F7 /* ViewController.m */,
+				E047F6A71EA5E184008202F7 /* ZFLockView.h */,
+				E047F6A81EA5E184008202F7 /* ZFLockView.m */,
+				E047F67E1EA5DD77008202F7 /* Assets.xcassets */,
+				E047F6801EA5DD77008202F7 /* LaunchScreen.storyboard */,
+				E047F6831EA5DD77008202F7 /* Info.plist */,
+				E047F6721EA5DD77008202F7 /* Supporting Files */,
+			);
+			path = LockGesture;
+			sourceTree = "<group>";
+		};
+		E047F6721EA5DD77008202F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E047F6731EA5DD77008202F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E047F68B1EA5DD77008202F7 /* LockGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				E047F68C1EA5DD77008202F7 /* LockGestureTests.m */,
+				E047F68E1EA5DD77008202F7 /* Info.plist */,
+			);
+			path = LockGestureTests;
+			sourceTree = "<group>";
+		};
+		E047F6961EA5DD77008202F7 /* LockGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E047F6971EA5DD77008202F7 /* LockGestureUITests.m */,
+				E047F6991EA5DD77008202F7 /* Info.plist */,
+			);
+			path = LockGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E047F66E1EA5DD77008202F7 /* LockGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E047F69C1EA5DD77008202F7 /* Build configuration list for PBXNativeTarget "LockGesture" */;
+			buildPhases = (
+				E047F66B1EA5DD77008202F7 /* Sources */,
+				E047F66C1EA5DD77008202F7 /* Frameworks */,
+				E047F66D1EA5DD77008202F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockGesture;
+			productName = LockGesture;
+			productReference = E047F66F1EA5DD77008202F7 /* LockGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E047F6871EA5DD77008202F7 /* LockGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E047F69F1EA5DD77008202F7 /* Build configuration list for PBXNativeTarget "LockGestureTests" */;
+			buildPhases = (
+				E047F6841EA5DD77008202F7 /* Sources */,
+				E047F6851EA5DD77008202F7 /* Frameworks */,
+				E047F6861EA5DD77008202F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E047F68A1EA5DD77008202F7 /* PBXTargetDependency */,
+			);
+			name = LockGestureTests;
+			productName = LockGestureTests;
+			productReference = E047F6881EA5DD77008202F7 /* LockGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E047F6921EA5DD77008202F7 /* LockGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E047F6A21EA5DD77008202F7 /* Build configuration list for PBXNativeTarget "LockGestureUITests" */;
+			buildPhases = (
+				E047F68F1EA5DD77008202F7 /* Sources */,
+				E047F6901EA5DD77008202F7 /* Frameworks */,
+				E047F6911EA5DD77008202F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E047F6951EA5DD77008202F7 /* PBXTargetDependency */,
+			);
+			name = LockGestureUITests;
+			productName = LockGestureUITests;
+			productReference = E047F6931EA5DD77008202F7 /* LockGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E047F6671EA5DD77008202F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Huangzhengfeng;
+				TargetAttributes = {
+					E047F66E1EA5DD77008202F7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					E047F6871EA5DD77008202F7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E047F66E1EA5DD77008202F7;
+					};
+					E047F6921EA5DD77008202F7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E047F66E1EA5DD77008202F7;
+					};
+				};
+			};
+			buildConfigurationList = E047F66A1EA5DD77008202F7 /* Build configuration list for PBXProject "LockGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E047F6661EA5DD77008202F7;
+			productRefGroup = E047F6701EA5DD77008202F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E047F66E1EA5DD77008202F7 /* LockGesture */,
+				E047F6871EA5DD77008202F7 /* LockGestureTests */,
+				E047F6921EA5DD77008202F7 /* LockGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E047F66D1EA5DD77008202F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E047F6821EA5DD77008202F7 /* LaunchScreen.storyboard in Resources */,
+				E047F6AB1EA5E538008202F7 /* bg.jpg in Resources */,
+				E047F67F1EA5DD77008202F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E047F6861EA5DD77008202F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E047F6911EA5DD77008202F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E047F66B1EA5DD77008202F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E047F67A1EA5DD77008202F7 /* ViewController.m in Sources */,
+				E047F6771EA5DD77008202F7 /* AppDelegate.m in Sources */,
+				E047F6741EA5DD77008202F7 /* main.m in Sources */,
+				E047F6A91EA5E184008202F7 /* ZFLockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E047F6841EA5DD77008202F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E047F68D1EA5DD77008202F7 /* LockGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E047F68F1EA5DD77008202F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E047F6981EA5DD77008202F7 /* LockGestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E047F68A1EA5DD77008202F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E047F66E1EA5DD77008202F7 /* LockGesture */;
+			targetProxy = E047F6891EA5DD77008202F7 /* PBXContainerItemProxy */;
+		};
+		E047F6951EA5DD77008202F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E047F66E1EA5DD77008202F7 /* LockGesture */;
+			targetProxy = E047F6941EA5DD77008202F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E047F6801EA5DD77008202F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E047F6811EA5DD77008202F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E047F69A1EA5DD77008202F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E047F69B1EA5DD77008202F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E047F69D1EA5DD77008202F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LockGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZhenF.LockGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E047F69E1EA5DD77008202F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LockGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZhenF.LockGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E047F6A01EA5DD77008202F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LockGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZhenF.LockGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockGesture.app/LockGesture";
+			};
+			name = Debug;
+		};
+		E047F6A11EA5DD77008202F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LockGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZhenF.LockGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockGesture.app/LockGesture";
+			};
+			name = Release;
+		};
+		E047F6A31EA5DD77008202F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LockGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZhenF.LockGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LockGesture;
+			};
+			name = Debug;
+		};
+		E047F6A41EA5DD77008202F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LockGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HZhenF.LockGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LockGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E047F66A1EA5DD77008202F7 /* Build configuration list for PBXProject "LockGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E047F69A1EA5DD77008202F7 /* Debug */,
+				E047F69B1EA5DD77008202F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E047F69C1EA5DD77008202F7 /* Build configuration list for PBXNativeTarget "LockGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E047F69D1EA5DD77008202F7 /* Debug */,
+				E047F69E1EA5DD77008202F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E047F69F1EA5DD77008202F7 /* Build configuration list for PBXNativeTarget "LockGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E047F6A01EA5DD77008202F7 /* Debug */,
+				E047F6A11EA5DD77008202F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E047F6A21EA5DD77008202F7 /* Build configuration list for PBXNativeTarget "LockGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E047F6A31EA5DD77008202F7 /* Debug */,
+				E047F6A41EA5DD77008202F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E047F6671EA5DD77008202F7 /* Project object */;
+}
